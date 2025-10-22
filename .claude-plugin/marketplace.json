@@ -26,8 +26,7 @@
       "source": {
         "source": "github",
         "repo": "jeffdeville/zForge-cadi-audit"
-      },
-      "commands": ["./commands/cadi-audit.md"]
+      }
     }
   ],
   "categories": {
