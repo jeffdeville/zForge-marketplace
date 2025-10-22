@@ -1,5 +1,5 @@
 {
-  "name": "zForge Workshops",
+  "name": "zForge",
   "version": "1.0.0",
   "description": "Collection of domain-specific workshops built with Claude Code Agent Forge. Tools for security auditing, API documentation, performance profiling, and more.",
   "author": "Jeff Deville",
