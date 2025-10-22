@@ -1,0 +1,19 @@
+{
+  "name": "skill-plugin",
+  "version": "1.0.0",
+  "description": "A plugin template with an auto-activating skill",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/yourusername"
+  },
+  "repository": "https://github.com/yourusername/skill-plugin",
+  "homepage": "https://github.com/yourusername/skill-plugin#readme",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "skill",
+    "agent-skills",
+    "starter"
+  ],
+  "skills": ["./skills/example-skill"]
+}

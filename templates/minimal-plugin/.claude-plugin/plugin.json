@@ -1,0 +1,17 @@
+{
+  "name": "minimal-plugin",
+  "version": "1.0.0",
+  "description": "A minimal Claude Code plugin template",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/yourusername"
+  },
+  "repository": "https://github.com/yourusername/minimal-plugin",
+  "homepage": "https://github.com/yourusername/minimal-plugin#readme",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "minimal",
+    "starter"
+  ]
+}

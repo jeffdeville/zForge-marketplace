@@ -1,0 +1,18 @@
+{
+  "name": "command-plugin",
+  "version": "1.0.0",
+  "description": "A plugin template with an executable command",
+  "author": {
+    "name": "Your Name",
+    "url": "https://github.com/yourusername"
+  },
+  "repository": "https://github.com/yourusername/command-plugin",
+  "homepage": "https://github.com/yourusername/command-plugin#readme",
+  "license": "MIT",
+  "keywords": [
+    "template",
+    "command",
+    "starter"
+  ],
+  "commands": ["./commands/example-command.md"]
+}
