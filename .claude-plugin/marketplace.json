@@ -1,30 +1,33 @@
 {
-  "name": "zForge",
-  "version": "1.0.0",
-  "description": "Collection of domain-specific workshops built with Claude Code Agent Forge. Tools for security auditing, API documentation, performance profiling, and more.",
-  "author": "Jeff Deville",
+  "name": "zforge",
+  "owner": {
+    "name": "Jeff Deville"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "Collection of domain-specific workshops built with Claude Code Agent Forge. Tools for security auditing, API documentation, performance profiling, and more."
+  },
   "repository": "https://github.com/jeffdeville/zForge-marketplace",
   "homepage": "https://github.com/jeffdeville/zForge-marketplace",
   "license": "MIT",
   "plugins": [
     {
       "name": "cadi-audit",
-      "displayName": "CADI Security Audit",
       "description": "Automated Cross-Account Data Isolation security auditing for multi-tenant codebases. Auto-detects tech stack and tenancy configuration, uses LSP-based call graph analysis, generates exploit scripts.",
       "repository": "https://github.com/jeffdeville/zForge-cadi-audit",
       "version": "1.0.0",
+      "category": "security",
       "tags": [
         "security",
         "audit",
         "multi-tenant",
         "vulnerability-scanning"
       ],
-      "requirements": {
-        "mcp_servers": ["serena"],
-        "skills": ["xlsx (optional)"]
+      "source": {
+        "source": "github",
+        "repo": "jeffdeville/zForge-cadi-audit"
       },
-      "commands": ["/cadi-audit"],
-      "featured": true
+      "commands": ["./commands/cadi-audit.md"]
     }
   ],
   "categories": {
